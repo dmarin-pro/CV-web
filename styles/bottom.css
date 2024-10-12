@@ -1,15 +1,15 @@
 .skills, .languages, .tools {
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .skills h3, .languages h3, .tools h3 {
     text-align: left;
     background-color: #4a4b8d;
     color: white;
-    padding: 5px;
+    padding: 2%;
     border-radius: 5px;
-    margin-bottom: 10px;
-    padding-left: 10px;
+    margin-bottom: 4%;
+    padding-left: 4%;
 }
 
 .skills ul, .languages ul, .tools ul {
@@ -18,19 +18,30 @@
 }
 
 .skills ul li, .languages ul li, .tools ul li {
-    margin-bottom: 5px;
+    margin-bottom: 4%;
 }
 
 .progress-bar {
-    background-color: #ddd; /* Color de fondo de la barra */
-    border-radius: 5px; /* Bordes redondeados */
-    height: 8px; /* Altura de la barra */
-    margin-top: 5px; /* Espacio entre el texto y la barra */
-    margin-left: 10px; /* Alineación a la izquierda */
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 8px;
+    margin-top: 1%;
 }
 
 .level {
     background-color: #4a4b8d;
-    height: 100%; /* Altura completa de la barra */
-    border-radius: 5px; /* Bordes redondeados para el nivel */
+    height: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .skills h3, .languages h3, .tools h3 {
+        font-size: 2vw;
+    }
+    .skills ul li, .languages ul li, .tools ul li {
+        font-size: 1.8vw;
+    }
+    .progress-bar {
+        height: 4px;
+    }
 }

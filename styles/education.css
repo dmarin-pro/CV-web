@@ -1,32 +1,42 @@
 .education {
-    margin-bottom: 30px; /* Ajusta este valor según el espacio deseado */
+    margin-bottom: 4%; /* Ajusta este valor según el espacio deseado */
     text-align: justify;
     line-height: 1.4;
 }
 
 .education p {
-    font-size: 1.0rem;
+    font-size: 0.9vw;
 }
 
 .education h2 {
     color: #4a4b8d;
-    margin-bottom: 10px;
+    margin-bottom: 4%;
     border-bottom: 2px solid #4a4b8d;
-    padding-bottom: 5px;
+    padding-bottom: 0.5%;
 }
 
-
 .degree{
-    margin-bottom: 20px;
+    margin-bottom: 4%;
 }
 
 .degree p {
-    font-size: 1.0rem;
+    font-size: 0.9vw;
 }
 
 .degree h3 {
-    margin-bottom: 5px;
-    font-size: 1.1rem;
+    margin-bottom: 1%;
+    font-size: 1vw;
     color: #000000;
 }
 
+@media (max-width: 768px) {
+    .education h2 {
+        font-size: 2.2vw;
+    }
+    .degree p {
+        font-size: 1.5vw;
+    } 
+    .degree h3 {
+        font-size: 1.8vw;
+    }
+}
