@@ -1,0 +1,36 @@
+.skills, .languages, .tools {
+    margin-bottom: 20px;
+}
+
+.skills h3, .languages h3, .tools h3 {
+    text-align: left;
+    background-color: #4a4b8d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.skills ul, .languages ul, .tools ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li, .languages ul li, .tools ul li {
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #ddd; /* Color de fondo de la barra */
+    border-radius: 5px; /* Bordes redondeados */
+    height: 8px; /* Altura de la barra */
+    margin-top: 5px; /* Espacio entre el texto y la barra */
+    margin-left: 10px; /* Alineación a la izquierda */
+}
+
+.level {
+    background-color: #4a4b8d;
+    height: 100%; /* Altura completa de la barra */
+    border-radius: 5px; /* Bordes redondeados para el nivel */
+}

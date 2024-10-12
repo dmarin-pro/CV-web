@@ -1,0 +1,79 @@
+.skills, .languages, .tools {
+    margin-bottom: 20px;
+}
+
+.personal-info h3, .skills h3, .languages h3, .tools h3 {
+    text-align: left;
+    background-color: #4a4b8d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.skills ul, .languages ul, .tools ul {
+    list-style-type: none;
+}
+
+.skills ul li, .languages ul li, .tools ul li {
+    margin-bottom: 5px;
+}
+
+.right-column h2 {
+    color: #4a4b8d;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4a4b8d;
+    padding-bottom: 5px;
+}
+
+.job, .degree {
+    margin-bottom: 20px;
+}
+
+.job h3, .degree h3 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.job p, .degree p {
+    font-size: 1.0rem;
+}
+
+ul {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.progress-bar {
+    background-color: #ddd; /* Color de fondo de la barra */
+    border-radius: 5px; /* Bordes redondeados */
+    height: 8px; /* Altura de la barra */
+    margin-top: 5px; /* Espacio entre el texto y la barra */
+    margin-left: 10px; /* Alineación a la izquierda */
+}
+
+.level {
+    background-color: #4a4b8d;
+    height: 100%; /* Altura completa de la barra */
+    border-radius: 5px; /* Bordes redondeados para el nivel */
+}
+
+.profile {
+    margin-bottom: 30px; /* Ajusta este valor según el espacio deseado */
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.experience {
+    margin-bottom: 30px; /* Ajusta este valor según el espacio deseado */
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.education {
+    margin-bottom: 30px; /* Ajusta este valor según el espacio deseado */
+    text-align: justify;
+    line-height: 1.4;
+}

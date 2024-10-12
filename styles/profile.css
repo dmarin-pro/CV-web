@@ -1,0 +1,16 @@
+.profile {
+    margin-bottom: 30px; /* Ajusta este valor según el espacio deseado */
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.profile p {
+    font-size: 1.0rem;
+}
+
+.profile h2 {
+    color: #4a4b8d;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4a4b8d;
+    padding-bottom: 5px;
+}
