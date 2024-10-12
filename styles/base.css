@@ -27,17 +27,26 @@ body {
 }
 
 .cv-container2 {
-    display: flex;
-    flex-direction: column;
-    max-width: 900px;
-    margin: auto;
-    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .main2 {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
+    .cv-container {
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .cv-container2 {
+        padding: 5px;
+        border-radius: 5px;
+    }
 }
